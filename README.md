@@ -4,3 +4,12 @@
 This notebook trains a MASK R-CNN model from Detectron2 SDK from the scratch (NOT fine tuning a model's checkpoint) using a set of vegetable bed images to test image segmentation, instance segmentation and panoptic segmentation over new images.  
 
 Training batch size=256 over 1000 iterations to classify into 6 labels.
+
+# Image Segmentation output
+![segmentation](segmentation_output1.png)
+
+# Panoptic segmentation output
+![alt text](panoptic_segmentation_output.png)
+
+# Detected labels
+![alt text](output_label_histogram.png)
